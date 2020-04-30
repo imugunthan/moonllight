@@ -11920,8 +11920,7 @@ table .points .loss {
   z-index: 1;
   margin-top: 3vh;
   border-radius: 15px;
-  background: #3e3583 url(../img/signup-bg-2.svg) left 0 top/cover
-    no-repeat;
+  background: #3e3583 url(../img/signup-bg-2.svg) left 0 top/cover no-repeat;
   box-shadow: 0 8px 59px 26px rgba(0, 0, 0, 0.15);
 }
 .landing-page .hero-card::after {
@@ -12136,8 +12135,7 @@ table .points .loss {
 }
 .landing-page .real-analysis .image {
   width: 50vw;
-  background: url(../img/real-analysis-bg.svg) left bottom
-    no-repeat;
+  background: url(../img/real-analysis-bg.svg) left bottom no-repeat;
   background-size: 65%;
 }
 .landing-page .real-analysis .image img {
@@ -12165,6 +12163,7 @@ table .points .loss {
 .landing-page .compare-players {
   background: #2f276e;
   width: 100vw;
+  position: relative;
 }
 .landing-page .compare-players .player-pickers {
   position: absolute;
@@ -12278,12 +12277,10 @@ table .points .loss {
   position: relative;
 }
 .landing-page .compare-players .left {
-  background: url(../img/comparison-left.svg) left
-    center/cover no-repeat;
+  background: url(../img/comparison-left.svg) left center/cover no-repeat;
 }
 .landing-page .compare-players .right {
-  background: url(../img/comparison-right.svg) right
-    center/cover no-repeat;
+  background: url(../img/comparison-right.svg) right center/cover no-repeat;
 }
 .landing-page .compare-players .right .player-pickers {
   right: 2%;
@@ -12344,3 +12341,132 @@ table .points .loss {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+.landing-page .compare-players .stats-comparison {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.landing-page .compare-players .stats-comparison .stats-card {
+  width: 45vw;
+  height: 71px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: white;
+}
+.landing-page .compare-players .stats-comparison .stats-card .stats-left,
+.landing-page .compare-players .stats-comparison .stats-card .stats-right {
+  width: 40%;
+  padding: 1vw 2vw;
+}
+.landing-page .compare-players .stats-comparison .stats-card .stats-left .value,
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .value {
+  font-family: "Bebas Neue";
+  font-size: 31px;
+  color: #ffffff;
+  letter-spacing: 0.37px;
+  line-height: 24px;
+}
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-left
+  .points,
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .points {
+  font-family: "Bebas Neue";
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.56px;
+  line-height: 24px;
+}
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-left
+  .points
+  span,
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .points
+  span {
+  font-family: "Bebas Neue";
+  font-size: 16px;
+  color: #afb1bf;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  margin: 0 5px;
+}
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-left
+  .progress,
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .progress {
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  background: rgba(220, 220, 220, 0.3);
+  margin-top: 5px;
+  position: relative;
+}
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-left
+  .progress-bar,
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .progress-bar {
+  position: absolute;
+  left: 0;
+  width: 70%;
+  height: 3px;
+  border-radius: 10px;
+  background: #29bba5;
+}
+.landing-page
+  .compare-players
+  .stats-comparison
+  .stats-card
+  .stats-right
+  .progress-bar {
+  left: initial;
+  right: 0;
+  background: #fb295e;
+}
+.landing-page .compare-players .stats-comparison .stats-card .stats-title {
+  width: 20%;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 14px;
+}
