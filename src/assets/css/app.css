@@ -11920,8 +11920,8 @@ table .points .loss {
   z-index: 1;
   margin-top: 3vh;
   border-radius: 15px;
-  background: #3e3583 url(../img/signup-bg-2.svg) left 0
-    top/cover no-repeat;
+  background: #3e3583 url(../img/signup-bg-2.svg) left 0 top/cover
+    no-repeat;
   box-shadow: 0 8px 59px 26px rgba(0, 0, 0, 0.15);
 }
 .landing-page .hero-card::after {
@@ -11932,8 +11932,7 @@ table .points .loss {
   position: absolute;
   top: 0;
   right: 0;
-  background: url(../img/hero-card-number-bg.png) right
-    top no-repeat;
+  background: url(../img/hero-card-number-bg.png) right top no-repeat;
 }
 .landing-page .hero-card .left,
 .landing-page .hero-card .right {
@@ -12021,8 +12020,7 @@ table .points .loss {
 .landing-page .base {
   height: 100vh;
   width: 100%;
-  background: url("/src/assets/img/landing-page/map.svg") right -50px center/contain
-    no-repeat;
+  background: url("../img/map.svg") right -50px center/contain no-repeat;
   position: relative;
 }
 .landing-page .leagues a img {
@@ -12099,9 +12097,14 @@ table .points .loss {
 }
 .landing-page .pages {
   min-height: 100vh;
+  width: 100vw;
 }
 .landing-page .pages .page-slider {
   position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.landing-page .pages .circle-mask {
   height: 100vh;
 }
 .landing-page .pages .circle {
@@ -12110,8 +12113,7 @@ table .points .loss {
 }
 .landing-page .pages img {
   margin-top: 30px;
-  max-height: 100%;
-  width: 90vw;
+  width: 75vw;
   position: absolute;
   z-index: 1;
   left: 50%;
@@ -12128,8 +12130,15 @@ table .points .loss {
 .landing-page .pages img.de-active {
   animation: slide-out 2s forwards;
 }
+.landing-page .real-analysis {
+  margin-top: 5vw;
+  width: 100vw;
+}
 .landing-page .real-analysis .image {
   width: 50vw;
+  background: url(../img/real-analysis-bg.svg) left bottom
+    no-repeat;
+  background-size: 65%;
 }
 .landing-page .real-analysis .image img {
   height: 55vw;
@@ -12138,7 +12147,7 @@ table .points .loss {
   width: 50vw;
 }
 .landing-page .real-analysis .right .content-wrapper {
-  max-width: 430px;
+  width: 60%;
 }
 .landing-page .real-analysis .right .content-wrapper .key {
   margin-top: 10px;
@@ -12152,6 +12161,161 @@ table .points .loss {
   flex-basis: 50%;
   width: 50%;
   margin-top: 50px;
+}
+.landing-page .compare-players {
+  background: #2f276e;
+  width: 100vw;
+}
+.landing-page .compare-players .player-pickers {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.landing-page .compare-players .player-list {
+  width: 4.3vw;
+  height: 4.3vw;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.3;
+  cursor: pointer;
+  margin-bottom: 1vw;
+  border: 0.3vw solid transparent;
+}
+.landing-page .compare-players .player-list.active {
+  opacity: 1;
+  border-color: #525cd7;
+}
+.landing-page .compare-players .player-list img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.landing-page .compare-players .player-image {
+  height: 45vw;
+  position: absolute;
+  left: 15%;
+  top: 6%;
+}
+.landing-page .compare-players .player-info {
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  text-align: right;
+}
+.landing-page .compare-players .player-name {
+  font-family: "Bebas Neue";
+  font-size: 3.8vw;
+  line-height: 3.4vw;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+.landing-page .compare-players .player-position {
+  font-size: 1.1vw;
+  font-weight: bold;
+  color: #a4d4e8;
+}
+.landing-page .compare-players .player-team,
+.landing-page .compare-players .player-rank {
+  justify-content: flex-end;
+}
+.landing-page .compare-players .player-team img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 12px;
+}
+.landing-page .compare-players .player-team .team-name {
+  font-size: 1.4vw;
+  font-weight: bold;
+  color: #ffffff;
+}
+.landing-page .compare-players .player-rank {
+  align-items: baseline;
+}
+.landing-page .compare-players .player-rank p {
+  font-family: "Bebas Neue";
+  font-size: 2.9vw;
+  line-height: 11vw;
+  color: #24bfa8;
+  text-shadow: 0 9px 10px rgba(0, 0, 0, 0.4);
+  margin-left: 5px;
+}
+.landing-page .compare-players .player-rank .rank {
+  font-size: 9.7vw;
+}
+.landing-page .compare-players .ranking-value {
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  text-align: center;
+}
+.landing-page .compare-players .ranking-value div {
+  margin-right: 3vw;
+}
+.landing-page .compare-players .ranking-value .label {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.56);
+  text-transform: uppercase;
+}
+.landing-page .compare-players .ranking-value .value {
+  font-family: "Bebas Neue";
+  font-size: 34px;
+  color: #ffffff;
+}
+.landing-page .compare-players .ranking-value .value span {
+  font-family: "Bebas Neue";
+  font-size: 19px;
+}
+.landing-page .compare-players .left,
+.landing-page .compare-players .right {
+  width: 50vw;
+  height: 100vh;
+  flex-basis: 50vw;
+  position: relative;
+}
+.landing-page .compare-players .left {
+  background: url(../img/comparison-left.svg) left
+    center/cover no-repeat;
+}
+.landing-page .compare-players .right {
+  background: url(../img/comparison-right.svg) right
+    center/cover no-repeat;
+}
+.landing-page .compare-players .right .player-pickers {
+  right: 2%;
+  left: initial;
+}
+.landing-page .compare-players .right .player-image {
+  right: 15%;
+  left: initial;
+}
+.landing-page .compare-players .right .player-info {
+  right: initial;
+  left: 10%;
+  text-align: left;
+}
+.landing-page .compare-players .right .player-team,
+.landing-page .compare-players .right .player-rank {
+  justify-content: flex-start;
+}
+.landing-page .compare-players .right .player-team img {
+  margin-left: 0;
+  margin-right: 12px;
+}
+.landing-page .compare-players .right .player-rank p {
+  color: #fb295e;
+}
+.landing-page .compare-players .right .ranking-value {
+  left: initial;
+  right: 10%;
+}
+.landing-page .compare-players .right .ranking-value div {
+  margin-right: 0;
+  margin-left: 3vw;
 }
 
 @keyframes slide-out {
