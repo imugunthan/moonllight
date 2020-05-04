@@ -12108,7 +12108,7 @@ table .points .loss {
 }
 @media only screen and (max-width: 600px) {
   .landing-page .hero .scroll-down {
-    bottom: 40px;
+    /* bottom: 40px; */
   }
   .landing-page .hero .scroll-down label {
     display: none;

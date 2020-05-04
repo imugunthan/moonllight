@@ -44,7 +44,7 @@
                     <img src="src/assets/img/heroimage.png" alt="">
                 </div>
             </div>
-            <div class="scroll-down d-flex-center">
+            <div class="scroll-down d-flex-center" onclick="scrollDown()">
                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M3.43853 5.60465H16V7.54401H3.66575L7.68767 11.6804L6.19954 13L0.593203 7.23415L6.17385e-07 6.62407L0.541718 5.97178L5.50117 3.25336e-07L7.09227 1.20511L3.43853 5.60465Z"
@@ -56,7 +56,7 @@
                 <div class="circle"></div>
             </div>
         </div>
-        <div class="slide zig-zag">
+        <div class="slide zig-zag" id="zigZag">
             <div class="content">
                 <div class="content-wrapper">
                     <h1><span class="primary">Build your<br> perfect team.</span> <br>Pick from the <br>best OF THE
@@ -439,6 +439,10 @@
     window.onscroll = function () {
         var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
         let pos = section.offsetTop + (((section2.offsetTop - section.offsetTop) * 20 / 100) + 50);
+    }
+    let zig = document.getElementById('zigZag');
+    function scrollDown() {
+        zig.scrollIntoView({ behavior: 'smooth' });
     }
 </script>
 
