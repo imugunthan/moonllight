@@ -1109,8 +1109,8 @@ html {
 }
 .select-wrap.active .select-filter {
   color: #fff;
-  background: transparent url("/src/assets/img/arrow-down-active.svg") no-repeat
-    center right 7px;
+  background: transparent url("../../assets/img/arrow-down-active.svg")
+    no-repeat center right 7px;
 }
 .select-wrap .select-label {
   font-size: 16px;
@@ -1123,8 +1123,8 @@ html {
   color: #5f6c84;
   line-height: 24px;
   padding-right: 20px;
-  background: transparent url("/src/assets/img/arrow-down.svg") no-repeat center
-    right 7px;
+  background: transparent url("../../assets/img/arrow-down.svg") no-repeat
+    center right 7px;
   border: none;
   cursor: pointer;
 }
@@ -1234,7 +1234,7 @@ html {
 .side-nav .navmenu__item.active {
   background: #2f3180;
   box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.5);
-  background-image: url("/src/assets/img/Shape.png");
+  background-image: url("../../assets/img/Shape.png");
 }
 .side-nav .navmenu__item.active .material-icons {
   color: #fff;
@@ -1412,7 +1412,7 @@ html {
 }
 .more .search-wrap .custom-search {
   width: 100%;
-  background: white url("/src/assets/img/search-icon.svg") no-repeat center
+  background: white url("../../assets/img/search-icon.svg") no-repeat center
     right 10px;
   border: 0;
   padding-right: 30px;
@@ -1530,7 +1530,7 @@ html {
 .more .search-wrap .custom-search,
 .add-column .search-wrap .custom-search {
   width: 100%;
-  background: white url("/src/assets/img/search-icon.svg") no-repeat center
+  background: white url("../../assets/img/search-icon.svg") no-repeat center
     right 10px;
   border: 0;
   padding-right: 30px;
@@ -1759,7 +1759,7 @@ html {
   width: 100%;
   height: 235px;
   position: relative;
-  background: url(/src/assets/img/player-popout/Shape.svg) left 11px top 0px
+  background: url(../../assets/img/player-popout/Shape.svg) left 11px top 0px
     no-repeat;
 }
 .modal-aside .player-avatar-container .player-status {
@@ -2061,7 +2061,7 @@ html {
   cursor: pointer;
   padding-right: 40px;
   background: transparent
-    url("/src/assets/img/player-popout/select-background.svg") right center
+    url("../../assets/img/player-popout/select-background.svg") right center
     no-repeat;
 }
 .stats-main__header .select-options .label {
@@ -2897,7 +2897,7 @@ html {
 .nav-items.active {
   color: #b2e7f4;
   font-weight: 700;
-  background: #333589 url(/src/assets/img/player-popout/Shape-1.svg) top 13px
+  background: #333589 url(../../assets/img/player-popout/Shape-1.svg) top 13px
     right -18px no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -3669,7 +3669,7 @@ html {
   cursor: pointer;
   padding-right: 30px;
   background: transparent
-    url("/src/assets/img/player-popout/select-background.svg") right center
+    url("../../assets/img/player-popout/select-background.svg") right center
     no-repeat;
 }
 .player-picker .select-options .label {
@@ -3699,8 +3699,8 @@ html {
   font-size: 13px;
   color: #afb1bf;
   line-height: 24px;
-  background: #eeebf4 url("/src/assets/img/player-popout/search-icon.svg") right
-    20px center no-repeat;
+  background: #eeebf4 url("../../assets/img/player-popout/search-icon.svg")
+    right 20px center no-repeat;
 }
 .player-picker .player-card {
   padding: 10px 15px;
@@ -3804,7 +3804,7 @@ html {
   font-size: 16px;
   color: #ffffff;
   line-height: 19px;
-  background: url("/src/assets/img/league-dashboard/league-dropdown.svg") right
+  background: url("../../assets/img/league-dashboard/league-dropdown.svg") right
     10px center no-repeat;
 }
 .dashboard .league-dropdown .league-wrap {
@@ -3844,7 +3844,7 @@ html {
 }
 .dashboard .points-rank-holder {
   padding: 15px 0 25px 0;
-  background: url(/src/assets/img/league-dashboard/shape-3.svg) no-repeat;
+  background: url(../../assets/img/league-dashboard/shape-3.svg) no-repeat;
 }
 .dashboard .points-rank-holder .status-text {
   font-family: "Bebas Neue";
@@ -4115,7 +4115,7 @@ html {
   cursor: pointer;
 }
 .dashboard .match-week-info-wrap .match-week-card__body {
-  background: url(/src/assets/img/league-dashboard/football-court.svg) center
+  background: url(../../assets/img/league-dashboard/football-court.svg) center
     no-repeat;
   min-height: 116px;
 }
@@ -4124,7 +4124,7 @@ html {
   text-align: center;
 }
 .dashboard .match-week-info-wrap .match-week-card__body .player.win {
-  background: url(/src/assets/img/league-dashboard/win.svg) left bottom
+  background: url(../../assets/img/league-dashboard/win.svg) left bottom
     no-repeat;
 }
 .dashboard
@@ -4734,7 +4734,7 @@ html {
   font-size: 12px;
   padding: 10px 20px;
   -webkit-appearance: none;
-  background: url("/src/assets/img/league-dashboard/select-arrow.svg") right
+  background: url("../../assets/img/league-dashboard/select-arrow.svg") right
     20px center no-repeat;
 }
 
@@ -4847,7 +4847,7 @@ table tbody td {
 }
 .gameweek-popup .gameweek-top {
   border-radius: 10px 10px 0 0;
-  background-image: url(/src/assets/img/league-dashboard/gameweek-bg.png),
+  background-image: url(../../assets/img/league-dashboard/gameweek-bg.png),
     linear-gradient(124deg, #2c3282 0%, #2a2266 100%);
   background-position: center;
   background-repeat: no-repeat;
@@ -5464,7 +5464,7 @@ table tbody td {
 .calendar-container .day-info {
   min-width: 388px;
   height: 100%;
-  background-image: url("/src/assets/img/calendar/calendar-shape.svg"),
+  background-image: url("../../assets/img/calendar/calendar-shape.svg"),
     linear-gradient(124deg, #2c3282 0%, #2a2266 100%);
   border-radius: 0 10px 10px 0;
   background-repeat: no-repeat;
@@ -5620,7 +5620,7 @@ table tbody td {
 .calendar-main__head .league-dropdown .league-name {
   font-size: 12px;
   color: #5f6c84;
-  background: url("/src/assets/img/calendar/league-dropdown.svg") right 10px
+  background: url("../../assets/img/calendar/league-dropdown.svg") right 10px
     center no-repeat;
 }
 .calendar-main__head .league-dropdown .league-wrap {
@@ -5797,7 +5797,7 @@ table tbody td {
   cursor: pointer;
   padding-right: 40px;
   background: transparent
-    url("/src/assets/img/player-popout/select-background.svg") right center
+    url("../../assets/img/player-popout/select-background.svg") right center
     no-repeat;
 }
 .select-options .label {
@@ -6583,11 +6583,11 @@ table .points .loss {
 }
 .budget-wrap .budget-card--blue {
   background: rgba(57, 57, 156, 0.93)
-    url("/src/assets/img/draft-room/budget-bg.svg") left no-repeat;
+    url("../../assets/img/draft-room/budget-bg.svg") left no-repeat;
 }
 .budget-wrap .budget-card--green {
   width: 100%;
-  background: url("/src/assets/img/draft-room/budget-bg-green.svg") right
+  background: url("../../assets/img/draft-room/budget-bg-green.svg") right
       no-repeat,
     linear-gradient(90deg, #529ec9 0%, #53d2bd 100%);
 }
@@ -6618,7 +6618,7 @@ table .points .loss {
   height: 100%;
   display: inline-block;
   border-radius: 10px;
-  background: url("/src/assets/img/draft-room/budget-bg-green.svg") right
+  background: url("../../assets/img/draft-room/budget-bg-green.svg") right
       no-repeat,
     linear-gradient(90deg, #529ec9 0%, #53d2bd 100%);
 }
@@ -6674,7 +6674,7 @@ table .points .loss {
   font-weight: 700;
   text-align: center;
   padding: 8px 17px;
-  background: #333589 url("/src/assets/img/draft-room/btn-shape.svg") right
+  background: #333589 url("../../assets/img/draft-room/btn-shape.svg") right
     bottom no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -6819,7 +6819,7 @@ table .points .loss {
   font-size: 12px;
   color: #606380;
   line-height: 1;
-  background: #fff url(/src/assets/img/draft-room/select-arrow-down.svg) right
+  background: #fff url(../../assets/img/draft-room/select-arrow-down.svg) right
     15px center no-repeat;
   border: 1px solid #eaeaea;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
@@ -6874,7 +6874,7 @@ table .points .loss {
   transform: translate(-50%, -50%);
   width: 515px;
   height: 325px;
-  background: #2a276f url(/src/assets/img/draft-room/popup-shape.svg) right top
+  background: #2a276f url(../../assets/img/draft-room/popup-shape.svg) right top
     no-repeat;
   box-shadow: 0 5px 10px 0 rgba(42, 39, 111, 0.19);
   border-radius: 16px;
@@ -7072,7 +7072,7 @@ table .points .loss {
 }
 
 .create-league {
-  background: url(/src/assets/img/create-league/create-league-bg-1.svg)
+  background: url(../../assets/img/create-league/create-league-bg-1.svg)
     center/cover no-repeat;
   position: relative;
 }
@@ -7314,7 +7314,7 @@ table .points .loss {
 .leagues-wrap .options.disabled .league-card {
   opacity: 0.82;
   background: rgba(0, 0, 0, 0.1)
-    url(/src/assets/img/create-league/league-card-bg.svg) top left no-repeat;
+    url(../../assets/img/create-league/league-card-bg.svg) top left no-repeat;
   box-shadow: none;
 }
 .leagues-wrap .options.disabled .league-card input[type="checkbox"] {
@@ -7326,7 +7326,7 @@ table .points .loss {
   border-radius: 5px;
   width: 150px;
   height: 205px;
-  background: #4b4296 url(/src/assets/img/create-league/league-card-bg.svg) top
+  background: #4b4296 url(../../assets/img/create-league/league-card-bg.svg) top
     left no-repeat;
   cursor: pointer;
 }
@@ -7360,7 +7360,7 @@ table .points .loss {
 }
 .leagues-wrap input:checked + .league-card {
   background: #fb295e
-    url(/src/assets/img/create-league/leage-card-active-bg.svg) top left
+    url(../../assets/img/create-league/leage-card-active-bg.svg) top left
     no-repeat;
 }
 .leagues-wrap input:checked + .league-card .league-card-league {
@@ -7467,7 +7467,7 @@ table .points .loss {
   border-radius: 5px;
 }
 .button-checkbox input[type="radio"]:checked + .options-wrap {
-  background: #fb295e url(/src/assets/img/create-league/btn-shape.svg) right
+  background: #fb295e url(../../assets/img/create-league/btn-shape.svg) right
     no-repeat;
   font-weight: 700;
 }
@@ -7715,7 +7715,7 @@ table .points .loss {
 }
 
 .bg-type-2 {
-  background: url(/src/assets/img/signup/full-screen-bg.svg) center/cover
+  background: url(../../assets/img/signup/full-screen-bg.svg) center/cover
     no-repeat;
 }
 
@@ -7731,7 +7731,7 @@ table .points .loss {
   transform: translate(-50%, -50%);
   width: 1100px;
   height: 80%;
-  background: #3e3583 url(/src/assets/img/signup/signup-bg-2.svg) left 0 center
+  background: #3e3583 url(../../assets/img/signup/signup-bg-2.svg) left 0 center
     no-repeat;
   box-shadow: 0 8px 59px 26px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
@@ -7803,8 +7803,8 @@ table .points .loss {
   font-size: 15px;
   color: white;
   font-weight: bold;
-  background: transparent url(/src/assets/img/signup/custom-select-bg.svg) right
-    2px center no-repeat;
+  background: transparent url(../../assets/img/signup/custom-select-bg.svg)
+    right 2px center no-repeat;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid rgba(216, 216, 216, 0.5);
@@ -8017,7 +8017,7 @@ table .points .loss {
   width: 100%;
   height: 170px;
   background: #2a276f
-    url(/src/assets/img/pre-draft-dashboard/upcoming-draft-main-bg.svg) right
+    url(../../assets/img/pre-draft-dashboard/upcoming-draft-main-bg.svg) right
     top no-repeat;
   box-shadow: 0 5px 12px -4px rgba(82, 92, 215, 0.3);
   border-radius: 10px;
@@ -8070,7 +8070,7 @@ table .points .loss {
   font-weight: 700;
   color: #ffffff;
   text-align: center;
-  background: #5abf7b url("/src/assets/img/pre-draft-dashboard/button-bg.svg")
+  background: #5abf7b url("../../assets/img/pre-draft-dashboard/button-bg.svg")
     right no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -8114,7 +8114,7 @@ table .points .loss {
   left: 0;
   padding: 3px 15px;
   background: #fb295e
-    url(/src/assets/img/pre-draft-dashboard/upcoming-draft-bottom-bg.svg) left
+    url(../../assets/img/pre-draft-dashboard/upcoming-draft-bottom-bg.svg) left
     no-repeat;
   border-radius: 0 0 10px 10px;
 }
@@ -8315,7 +8315,7 @@ table .points .loss {
   position: absolute;
   width: 515px;
   height: 255px;
-  background: #2a276f url(/src/assets/img/pre-draft-dashboard/modal-bg.svg)
+  background: #2a276f url(../../assets/img/pre-draft-dashboard/modal-bg.svg)
     right top no-repeat;
   box-shadow: 0 5px 10px 0 rgba(42, 39, 111, 0.19);
   border-radius: 16px;
@@ -8458,7 +8458,7 @@ table .points .loss {
 .profile-section__left .profile-card {
   width: calc(35% - 5px);
   height: 420px;
-  background: url(/src/assets/img/profile/profile-card-bg.svg) no-repeat,
+  background: url(../../assets/img/profile/profile-card-bg.svg) no-repeat,
     linear-gradient(180deg, #2f3180 0%, #4349b1 82%, #525cd7 100%);
   box-shadow: 0 5px 12px -4px rgba(82, 92, 215, 0.3);
   border-radius: 12px;
@@ -8635,7 +8635,7 @@ table .points .loss {
   .profile-details-card--edit
   .info-wrap
   .profile-edit--select {
-  background: white url(/src/assets/img/profile/select-arrow.svg) right 10px
+  background: white url(../../assets/img/profile/select-arrow.svg) right 10px
     center no-repeat;
 }
 .profile-section__left
@@ -8773,7 +8773,7 @@ table .points .loss {
 
 .referrals .card--blue {
   height: 380px;
-  background: #2b2972 url(/src/assets/img/profile/referral-card.svg) top right
+  background: #2b2972 url(../../assets/img/profile/referral-card.svg) top right
     no-repeat;
   box-shadow: 0 5px 12px -4px rgba(82, 92, 215, 0.3);
   border-radius: 12px;
@@ -8877,7 +8877,7 @@ table .points .loss {
 .referrals .referrals-right {
   height: 760px;
   width: calc(30% - 17px);
-  background: url(/src/assets/img/profile/referral-right.svg);
+  background: url(../../assets/img/profile/referral-right.svg);
   box-shadow: 0 5px 12px -4px rgba(82, 92, 215, 0.3);
   border-radius: 12px;
   position: relative;
@@ -8932,7 +8932,7 @@ table .points .loss {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #2a276f url(/src/assets/img/profile/profile-selection-bg.svg)
+  background: #2a276f url(../../assets/img/profile/profile-selection-bg.svg)
     right top 20px no-repeat;
   box-shadow: 0 5px 10px 0 rgba(42, 39, 111, 0.19);
   border-radius: 16px;
@@ -8953,7 +8953,7 @@ table .points .loss {
   + .check-button-text {
   color: white;
   font-weight: bold;
-  background: #fb295e url(/src/assets/img/profile/button-bg.svg) right top
+  background: #fb295e url(../../assets/img/profile/button-bg.svg) right top
     no-repeat;
   box-shadow: 0 5px 12px -4px rgba(45, 47, 69, 0.54);
   border-radius: 3px;
@@ -9006,7 +9006,7 @@ table .points .loss {
   border-right: 1px solid rgba(151, 151, 151, 0.28);
 }
 .modal--profile-update .modal-holder .profile-holder .player-card.selected {
-  background: #fb295e url(/src/assets/img/profile/profile-bg.svg) left center
+  background: #fb295e url(../../assets/img/profile/profile-bg.svg) left center
     no-repeat;
   box-shadow: 0 15px 30px 0 #1a184f;
 }
@@ -9131,14 +9131,14 @@ table .points .loss {
   font-family: "Bebas Neue";
   font-size: 23px;
   font-weight: normal;
-  background: #333589 url(/src/assets/img/create-league/create-button-bg.svg)
+  background: #333589 url(../../assets/img/create-league/create-button-bg.svg)
     right bottom no-repeat;
 }
 .create-league--empty .create-league-right {
   width: 60%;
   height: 100vh;
   position: relative;
-  background: url(/src/assets/img/create-league/create-league-empty.svg) right
+  background: url(../../assets/img/create-league/create-league-empty.svg) right
     top no-repeat;
 }
 .create-league--empty .create-league-right .image-holder {
@@ -9239,8 +9239,8 @@ table .points .loss {
 .help .how-can-we-help {
   width: 100%;
   padding: 0 20px;
-  background: #2a276f url(/src/assets/img/help/how-can-we-help-bg.svg) right top
-    no-repeat;
+  background: #2a276f url(../../assets/img/help/how-can-we-help-bg.svg) right
+    top no-repeat;
   box-shadow: 0 5px 12px -4px rgba(82, 92, 215, 0.3);
   border-radius: 8px;
   height: 210px;
@@ -9326,7 +9326,7 @@ table .points .loss {
   display: none;
 }
 .help .help-card:hover {
-  background: #fb295e url(/src/assets/img/help/help-card-bg.svg) right top
+  background: #fb295e url(../../assets/img/help/help-card-bg.svg) right top
     no-repeat;
   box-shadow: 0 6px 30px 0 rgba(47, 39, 110, 0.69);
   border-radius: 5px;
@@ -9396,7 +9396,7 @@ table .points .loss {
   height: 100vh;
   overflow: auto;
   padding: 50px;
-  background: url(/src/assets/img/help/help-2-bh.svg) top right no-repeat;
+  background: url(../../assets/img/help/help-2-bh.svg) top right no-repeat;
 }
 .help-2 .help-description .title-main {
   font-family: "Bebas Neue";
@@ -9570,7 +9570,7 @@ table .points .loss {
   height: 100%;
   position: relative;
   border-radius: 8px 0 0 8px;
-  background: url(/src/assets/img/home-page/your-league-bg.svg) no-repeat,
+  background: url(../../assets/img/home-page/your-league-bg.svg) no-repeat,
     linear-gradient(124deg, #2c3282 0%, #2a2266 100%);
   box-shadow: 2px 5px 9px 0 rgba(0, 0, 0, 0.1);
 }
@@ -9683,7 +9683,7 @@ table .points .loss {
   font-weight: 700;
   color: #ffffff;
   text-align: center;
-  background: #5abf7b url(/src/assets/img/home-page/create-league-btn-bg.svg)
+  background: #5abf7b url(../../assets/img/home-page/create-league-btn-bg.svg)
     right top no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -9900,7 +9900,7 @@ table .points .loss {
 .home-page-main .news-holder {
   width: calc(66% - 10px);
   height: 415px;
-  background: url(/src/assets/img/home-page/home-page-news-card-bg.svg)
+  background: url(../../assets/img/home-page/home-page-news-card-bg.svg)
     center/cover no-repeat;
   padding: 35px 40px;
   position: relative;
@@ -9978,8 +9978,8 @@ table .points .loss {
 }
 .home-page-main .top-players-info-wrap .top-players-head {
   height: 150px;
-  background: #52c7bf url(/src/assets/img/home-page/top-player-bg.svg) right top
-    no-repeat;
+  background: #52c7bf url(../../assets/img/home-page/top-player-bg.svg) right
+    top no-repeat;
   border-radius: 10px 10px 0 0;
 }
 .home-page-main .top-players-info-wrap .top-players-head .head {
@@ -9991,8 +9991,8 @@ table .points .loss {
   font-size: 12px;
   font-weight: 700;
   color: #ffffff;
-  background: #52c7bf url(/src/assets/img/home-page/dropdown-arrow-bg.svg) right
-    10px center no-repeat;
+  background: #52c7bf url(../../assets/img/home-page/dropdown-arrow-bg.svg)
+    right 10px center no-repeat;
   border-radius: 21px;
   padding: 4px 30px 4px 20px;
 }
@@ -10204,7 +10204,7 @@ table .points .loss {
   color: #ffffff;
   text-align: center;
   line-height: 24px;
-  background: #5abf7b url(/src/assets/img/home-page/create-league-btn-bg.svg)
+  background: #5abf7b url(../../assets/img/home-page/create-league-btn-bg.svg)
     right top no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -10212,7 +10212,8 @@ table .points .loss {
 }
 
 .my-team-main {
-  background: url(/src/assets/img/my-team/my-team-bg.svg) center/cover no-repeat;
+  background: url(../../assets/img/my-team/my-team-bg.svg) center/cover
+    no-repeat;
 }
 .my-team-main .nav-link {
   padding: 15px;
@@ -10318,7 +10319,7 @@ table .points .loss {
   height: 34px;
   text-align: center;
   border-radius: 50%;
-  background: #353780 url(/src/assets/img/my-team/help-bg.svg) bottom right
+  background: #353780 url(../../assets/img/my-team/help-bg.svg) bottom right
     no-repeat;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -10333,7 +10334,7 @@ table .points .loss {
   font-weight: 500;
   color: #b2e7f4;
   line-height: 16px;
-  background: #353780 url(/src/assets/img/my-team/bench-bg.svg) right bottom
+  background: #353780 url(../../assets/img/my-team/bench-bg.svg) right bottom
     no-repeat;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 7px;
@@ -10388,7 +10389,7 @@ table .points .loss {
   color: #ffffff;
   text-align: center;
   line-height: 45px;
-  background: #353780 url(/src/assets/img/my-team/bench-bg.svg);
+  background: #353780 url(../../assets/img/my-team/bench-bg.svg);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
@@ -10408,7 +10409,7 @@ table .points .loss {
 .my-team-main .switch-player .holder__top {
   height: 41px;
   border-radius: 15px 15px 0 0;
-  background: #272f53 url(/src/assets/img/my-team/player-bg.svg) top right
+  background: #272f53 url(../../assets/img/my-team/player-bg.svg) top right
     no-repeat;
   text-align: center;
 }
@@ -10469,7 +10470,7 @@ table .points .loss {
   .check-button
   .radio-button:checked
   + .check-button-text {
-  background: #333589 url(/src/assets/img/my-team/match-bg.svg) right bottom
+  background: #333589 url(../../assets/img/my-team/match-bg.svg) right bottom
     no-repeat;
   box-shadow: 0 7px 15px -4px rgba(0, 0, 0, 0.3),
     0 12px 20px -16px rgba(158, 117, 255, 0.15);
@@ -10614,7 +10615,7 @@ table .points .loss {
   visibility: hidden;
 }
 .my-team .player-card__top {
-  background: rgba(32, 36, 86, 0.9) url(/src/assets/img/my-team/player-bg.svg)
+  background: rgba(32, 36, 86, 0.9) url(../../assets/img/my-team/player-bg.svg)
     no-repeat;
   height: calc(170px - 90px);
   border-radius: 12px 12px 0 0;
@@ -10754,7 +10755,7 @@ table .points .loss {
   opacity: 1;
 }
 .my-team .player-card.captain .player-card__top {
-  background: #f1c351 url(/src/assets/img/my-team/captain-bg.svg) no-repeat;
+  background: #f1c351 url(../../assets/img/my-team/captain-bg.svg) no-repeat;
 }
 .my-team .player-card.captain .player-position {
   color: black;
@@ -10763,7 +10764,8 @@ table .points .loss {
   opacity: 1;
 }
 .my-team .player-card.vice-captain .player-card__top {
-  background: #d9d8d8 url(/src/assets/img/my-team/vice-captain-bg.svg) no-repeat;
+  background: #d9d8d8 url(../../assets/img/my-team/vice-captain-bg.svg)
+    no-repeat;
 }
 .my-team .player-card.vice-captain .player-position {
   color: black;
@@ -10840,7 +10842,7 @@ table .points .loss {
 .my-team .player-card__type2 .boost-section {
   height: calc(170px - 145px);
   text-align: center;
-  background: #333a89 url(/src/assets/img/my-team/boost-bg.svg) right no-repeat;
+  background: #333a89 url(../../assets/img/my-team/boost-bg.svg) right no-repeat;
   border-radius: 0 0 15px 15px;
   position: relative;
   overflow: hidden;
@@ -11068,7 +11070,7 @@ table .points .loss {
   width: calc(100vw - 100px);
   transition: all 0.3s ease;
   height: 325px;
-  background: #2b2a74 url(/src/assets/img/my-team/bench-popup-bg.svg) right
+  background: #2b2a74 url(../../assets/img/my-team/bench-popup-bg.svg) right
     bottom no-repeat;
 }
 .bench-players-popup.scrollup {
@@ -11160,7 +11162,7 @@ table .points .loss {
   position: fixed;
   right: 0;
   top: 0;
-  background: #2b2a74 url("/src/assets/img/calendar/calendar-shape.svg") bottom
+  background: #2b2a74 url("../../assets/img/calendar/calendar-shape.svg") bottom
     right no-repeat;
   transition: transform 0.3s ease;
 }
@@ -11425,7 +11427,7 @@ table .points .loss {
   font-size: 12px;
   padding: 10px 20px;
   -webkit-appearance: none;
-  background: url(/src/assets/img/league-dashboard/select-arrow.svg) right 20px
+  background: url(../../assets/img/league-dashboard/select-arrow.svg) right 20px
     center no-repeat;
 }
 .article-menu .article-card {
@@ -11441,7 +11443,7 @@ table .points .loss {
   width: calc(100% - 330px);
   height: 100vh;
   overflow: auto;
-  background: url(/src/assets/img/article/article-bg.svg) top right no-repeat;
+  background: url(../../assets/img/article/article-bg.svg) top right no-repeat;
   padding: 100px;
 }
 .article-container .article-wrap {
@@ -11591,7 +11593,7 @@ table .points .loss {
 }
 .article-add .article-add-holder .ones-to-watch {
   padding: 15px;
-  background: #ffffff url(/src/assets/img/article/inssta.svg) right bottom
+  background: #ffffff url(../../assets/img/article/inssta.svg) right bottom
     no-repeat;
   box-shadow: 0 -1px 14px -6px rgba(0, 0, 0, 0.5);
 }
@@ -11668,7 +11670,7 @@ table .points .loss {
   padding-left: 5px;
 }
 .league-setting .profile-details-card--edit .info-wrap .profile-edit--select {
-  background: white url(/src/assets/img/profile/select-arrow.svg) right 10px
+  background: white url(../../assets/img/profile/select-arrow.svg) right 10px
     center no-repeat;
 }
 .league-setting
@@ -11752,7 +11754,7 @@ table .points .loss {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #2a276f url(/src/assets/img/article/modal-bg.svg) right top
+  background: #2a276f url(../../assets/img/article/modal-bg.svg) right top
     no-repeat;
   box-shadow: 0 5px 10px 0 rgba(42, 39, 111, 0.19);
   border-radius: 16px;
@@ -11806,8 +11808,7 @@ table .points .loss {
 .animation {
   width: 100vw;
   height: 100vh;
-  background: white url(/src/assets/img/animation/Oval.svg) top left/cover
-    no-repeat;
+  background: white url(../../assets/img/Oval.svg) top left/cover no-repeat;
   position: relative;
 }
 .animation .image {
@@ -11874,9 +11875,50 @@ table .points .loss {
   bottom: 0vh;
   left: -14vw;
 }
+.landing-page .combo-search-bar {
+  box-shadow: 0 14px 35px 0 rgba(47, 39, 110, 0.63);
+  display: flex;
+  overflow: hidden;
+  width: 35vw;
+  margin: 0 auto;
+}
+.landing-page .combo-search-bar input {
+  height: calc(30px + 1.3vw);
+  padding: 0 20px;
+  border: 0;
+  flex-basis: calc(100% - 4vw);
+  font-size: 1vw;
+  border-radius: 6px 0 0 6px;
+}
+.landing-page .combo-search-bar input::placeholder {
+  color: #2f276e;
+}
+.landing-page .combo-search-bar button {
+  flex-basis: 4vw;
+  background-color: #525cd7;
+  border: 0;
+  border-radius: 0 6px 6px 0;
+}
+.landing-page .button {
+  width: 150px;
+  height: 45px;
+  font-family: "Bebas Neue";
+  font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 4px;
+}
+.landing-page .button--login {
+  border: 1px solid #ffffff;
+}
+.landing-page .button--register {
+  background: #fb285e;
+  box-shadow: 0 20px 20px -10px rgba(255, 132, 163, 0.25);
+}
 .landing-page .hero {
   width: 100vw;
-  background: #2f276e url(../img/hero-main-bg.png) right top no-repeat;
+  background: #2f276e url(../../assets/img/hero-main-bg.png) right top no-repeat;
   padding: 10vh;
   min-height: 600px;
   position: relative;
@@ -11896,23 +11938,6 @@ table .points .loss {
   line-height: 34px;
   text-transform: uppercase;
 }
-.landing-page .hero .button {
-  width: 150px;
-  height: 45px;
-  font-family: "Bebas Neue";
-  font-size: 19px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 24px;
-  border-radius: 4px;
-}
-.landing-page .hero .button--login {
-  border: 1px solid #ffffff;
-}
-.landing-page .hero .button--register {
-  background: #fb285e;
-  box-shadow: 0 20px 20px -10px rgba(255, 132, 163, 0.25);
-}
 .landing-page .hero-card {
   position: relative;
   height: 77vh;
@@ -11920,7 +11945,8 @@ table .points .loss {
   z-index: 1;
   margin-top: 3vh;
   border-radius: 15px;
-  background: #3e3583 url(../img/signup-bg-2.svg) left 0 top/cover no-repeat;
+  background: #3e3583 url(../../assets/img/signup-bg-2.svg) left 0
+    top/cover no-repeat;
   box-shadow: 0 8px 59px 26px rgba(0, 0, 0, 0.15);
 }
 .landing-page .hero-card::after {
@@ -11931,7 +11957,7 @@ table .points .loss {
   position: absolute;
   top: 0;
   right: 0;
-  background: url(../img/hero-card-number-bg.png) right top no-repeat;
+  background: url(../../assets/img/hero-card-number-bg.png) right top no-repeat;
 }
 .landing-page .hero-card .left,
 .landing-page .hero-card .right {
@@ -11955,30 +11981,6 @@ table .points .loss {
   font-size: 2.6vw;
   color: #ffffff;
   text-align: center;
-}
-.landing-page .hero .combo-search-bar {
-  box-shadow: 0 14px 35px 0 rgba(47, 39, 110, 0.63);
-  display: flex;
-  overflow: hidden;
-  width: 35vw;
-  margin: 0 auto;
-}
-.landing-page .hero .combo-search-bar input {
-  height: calc(30px + 1.3vw);
-  padding: 0 20px;
-  border: 0;
-  flex-basis: calc(100% - 4vw);
-  font-size: 1vw;
-  border-radius: 6px 0 0 6px;
-}
-.landing-page .hero .combo-search-bar input::placeholder {
-  color: #2f276e;
-}
-.landing-page .hero .combo-search-bar button {
-  flex-basis: 4vw;
-  background-color: #525cd7;
-  border: 0;
-  border-radius: 0 6px 6px 0;
 }
 .landing-page .hero .scroll-down {
   font-family: "Bebas Neue";
@@ -12019,7 +12021,7 @@ table .points .loss {
 .landing-page .base {
   height: 100vh;
   width: 100%;
-  background: url("../img/map.svg") right -50px center/contain no-repeat;
+  background: url("../../assets/img/map.svg") right -50px center/contain no-repeat;
   position: relative;
 }
 .landing-page .leagues a img {
@@ -12135,7 +12137,7 @@ table .points .loss {
 }
 .landing-page .real-analysis .image {
   width: 50vw;
-  background: url(../img/real-analysis-bg.svg) left bottom no-repeat;
+  background: url(../../assets/img/real-analysis-bg.svg) left bottom no-repeat;
   background-size: 65%;
 }
 .landing-page .real-analysis .image img {
@@ -12158,7 +12160,7 @@ table .points .loss {
 .landing-page .real-analysis .right .content-wrapper .feature {
   flex-basis: 50%;
   width: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .landing-page .compare-players {
   background: #2f276e;
@@ -12277,10 +12279,12 @@ table .points .loss {
   position: relative;
 }
 .landing-page .compare-players .left {
-  background: url(../img/comparison-left.svg) left center/cover no-repeat;
+  background: url(../../assets/img/comparison-left.svg) left center/cover
+    no-repeat;
 }
 .landing-page .compare-players .right {
-  background: url(../img/comparison-right.svg) right center/cover no-repeat;
+  background: url(../../assets/img/comparison-right.svg) right center/cover
+    no-repeat;
 }
 .landing-page .compare-players .right .player-pickers {
   right: 2%;
@@ -12314,34 +12318,6 @@ table .points .loss {
   margin-right: 0;
   margin-left: 3vw;
 }
-
-@keyframes slide-out {
-  0% {
-    transform: translate(-50%, -50%) scale(1) rotateX(0);
-    opacity: 1;
-    visibility: visible;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(1.3) rotateX(-180deg);
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-@keyframes slide-in {
-  0% {
-    transform: translate(-50%, -50%) scale(1.3) rotateX(180deg);
-    opacity: 0;
-    visibility: hidden;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(1) rotateX(0);
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
-/*# sourceMappingURL=app.css.map */
-
 .landing-page .compare-players .stats-comparison {
   position: absolute;
   top: 55%;
@@ -12350,7 +12326,7 @@ table .points .loss {
 }
 .landing-page .compare-players .stats-comparison .stats-card {
   width: 45vw;
-  height: 71px;
+  height: 5vw;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   margin-bottom: 10px;
@@ -12369,7 +12345,7 @@ table .points .loss {
   .stats-right
   .value {
   font-family: "Bebas Neue";
-  font-size: 31px;
+  font-size: 2.1vw;
   color: #ffffff;
   letter-spacing: 0.37px;
   line-height: 24px;
@@ -12387,7 +12363,7 @@ table .points .loss {
   .stats-right
   .points {
   font-family: "Bebas Neue";
-  font-size: 28px;
+  font-size: 2vw;
   color: rgba(255, 255, 255, 0.8);
   letter-spacing: 0.56px;
   line-height: 24px;
@@ -12407,7 +12383,7 @@ table .points .loss {
   .points
   span {
   font-family: "Bebas Neue";
-  font-size: 16px;
+  font-size: 1.1vw;
   color: #afb1bf;
   letter-spacing: 0.32px;
   line-height: 24px;
@@ -12465,8 +12441,138 @@ table .points .loss {
   width: 20%;
   text-align: center;
   font-family: "Bebas Neue";
-  font-size: 19px;
+  font-size: 1.3vw;
   color: #ffffff;
   text-align: center;
   line-height: 14px;
 }
+.landing-page .testimonials {
+  background: #2f276e url(../../assets/img/testimonials.svg) bottom right/cover
+    no-repeat;
+  padding-top: 10rem;
+  overflow-x: hidden;
+}
+.landing-page .testimonials-container {
+  min-height: 100vh;
+  background: url(../../assets/img/testimonials-m.svg) top left no-repeat;
+  padding: 4vw 8vw;
+  width: 90vw;
+  margin: 0 auto;
+  position: relative;
+}
+.landing-page .testimonials .what-people-say {
+  font-family: "Bebas Neue";
+  font-size: 3.3vw;
+  color: #ffffff;
+}
+.landing-page .testimonials .testimonials-head {
+  margin-bottom: 5vw;
+}
+.landing-page .testimonials .nav-arrow {
+  width: 44px;
+  height: 44px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.landing-page .testimonials .nav-arrow:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.landing-page .testimonials .nav-arrow:hover > i {
+  margin-right: 5px;
+}
+.landing-page .testimonials .nav-arrow.right:hover > i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.landing-page .testimonials .nav-arrow > i {
+  color: white;
+  font-weight: medium;
+  line-height: 44px;
+  transition: all 0.3s ease;
+}
+.landing-page .testimonials .nav-arrow.right > i {
+  transform: rotate(180deg);
+}
+.landing-page .testimonials .scroller {
+  width: max-content;
+}
+.landing-page .testimonials .testimonials-content {
+  width: 35vw;
+  margin-right: 5vw;
+}
+.landing-page .testimonials .testimonials-content p {
+  font-size: 1.65vw;
+  color: #ffffff;
+  margin-bottom: 3vw;
+}
+.landing-page .testimonials .testimonials-content .author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #88a0cd;
+}
+.landing-page .search-container {
+  margin: 12vw 0;
+}
+.landing-page .search-container img {
+  width: 5vw;
+  margin-bottom: 1.5vw;
+}
+.landing-page .search-container p {
+  font-family: "Bebas Neue";
+  font-size: 4.1vw;
+  line-height: 4.5vw;
+  color: #ffffff;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.3) rotateX(-180deg);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translate(-50%, -50%) scale(1.3) rotateX(180deg);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1) rotateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.footer {
+  background: white;
+  padding: 30px 40px;
+}
+.footer .nav-list {
+  font-size: 14px;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+.footer .nav-list:not(:last-child)::after {
+  content: "/";
+  margin: 0 5px;
+}
+.footer .insta-link {
+  align-items: flex-end !important;
+}
+.footer .insta-link span {
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  color: #2f276e;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=app.css.map */
